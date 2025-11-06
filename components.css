@@ -1,0 +1,28 @@
+.navbar {
+    width: 100%;
+    background: #0D111A;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #1b2233;
+    box-shadow: 0 0 20px #0009;
+}
+
+.nav-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #3AB0FF;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    color: #d8e2ff;
+    font-size: 15px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.nav-links a:hover {
+    color: #3AB0FF;
+}
